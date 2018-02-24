@@ -1,0 +1,2330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>@所有人:来自新时代的一份考卷，请查收</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <link rel="stylesheet" href="http://outsourceimagecdn.babyhouse.wang/assets/css/reset_for_mobile.css">
+    <!-- <script scr='http://outsourceimagecdn.babyhouse.wang/assets/js/flexible.js'></script> -->
+    <script>
+    document.getElementsByTagName('html')[0].style.fontSize = document.documentElement.clientWidth / 10 + 'px';
+    </script>
+    <style>
+    @keyframes scale {
+        0% {
+            opacity: 1;
+            -webkit-transform: scale(.97);
+            transform: scale(.97)
+        }
+        to {
+            opacity: 1;
+            -webkit-transform: scale(1.03);
+            transform: scale(1.03)
+        }
+    }
+
+    @keyframes leftFly {
+        0% {
+            -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+            opacity: 0;
+        }
+        to {
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes rightFly {
+        0% {
+            -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+            opacity: 0;
+        }
+        to {
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    #main {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .mainWrap {
+        width: 400%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        transform: translate3d(0, 0, 0);
+        transition: transform .5s;
+    }
+    /* .step_1*/
+
+    #main .step_1 {
+        width: 25%;
+        height: 100%;
+        background: url('http://outsourceimagecdn.babyhouse.wang/assets/images/index-bg.jpg') no-repeat;
+        background-size: 100% 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 0 0.666667rem;
+        padding-top: 1.506667rem;
+    }
+
+    .step_1 .titleImg {
+        display: block;
+    }
+
+    .step_1 .titleImg_1 {
+        width: 8.64rem;
+        height: 1.013333rem;
+        margin-bottom: 0.32rem;
+        opacity: 0;
+        -webkit-animation: leftFly .5s .6s;
+        animation: leftFly .5s .6s;
+        animation-fill-mode: forwards;
+        -webkit-animation-fill-mode: forwards;
+    }
+
+    .step_1 .titleImg_2 {
+        width: 7.973333rem;
+        height: 1.013333rem;
+        margin-bottom: 0.466667rem;
+        opacity: 0;
+        -webkit-animation: rightFly .5s .7s;
+        animation: rightFly .5s .7s;
+        animation-fill-mode: forwards;
+        -webkit-animation-fill-mode: forwards;
+    }
+
+    .step_1 .imgbox {
+        width: 6.826667rem;
+        height: 8.76rem;
+        margin: 0 auto;
+        position: relative;
+        margin: 0.626667rem;
+    }
+
+    .step_1 .bookImg {
+        display: block;
+        width: 6.826667rem;
+        height: 8.76rem;
+        opacity: 0;
+        -webkit-animation: fadeIn .5s 1.1s;
+        animation: fadeIn .5s 1.1s;
+        animation-fill-mode: forwards;
+        -webkit-animation-fill-mode: forwards;
+    }
+
+    .step_1 .penImg {
+        display: block;
+        width: 3.32rem;
+        height: 2.826667rem;
+        position: absolute;
+        top: 2.373333rem;
+        left: 4.0rem;
+        opacity: 0;
+        z-index: 99;
+        -webkit-animation: fadeIn .3s 1.4s;
+        animation: fadeIn .3s 1.4s;
+        animation-fill-mode: forwards;
+        -webkit-animation-fill-mode: forwards;
+    }
+
+    .step_1 .btnImg {
+        display: block;
+        width: 100%;
+        height: 2.093333rem;
+        opacity: 0;
+        -webkit-animation: scale 1s 1.8s infinite alternate;
+        animation: scale 1s 1.8s infinite alternate;
+        animation-fill-mode:forwards;
+        -webkit-animation-fill-mode:forwards;
+    }
+    .step_1 .btnImg >img{
+         display: block;
+         width: 3.186667rem;
+         height: 2.093333rem;
+         margin: 0 auto;
+    }
+    /*题*/
+
+    .step_2 {
+        width: 25%;
+        height: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-top: 1.066667rem;
+        position: relative;
+    }
+
+    .step_2 .step_2_wrap {
+        width: 100%;
+        height: 100%;
+        background: url('http://outsourceimagecdn.babyhouse.wang/assets/images/bg1.jpg') no-repeat;
+        background-size: 100% 100%;
+        overflow: auto;
+    }
+
+    .step_2 .step_2_wrap_ul {
+        width: 2000%;
+        min-height: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-bottom: 0.4rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        transform: translate3d(0, 0, 0);
+        transition: transform .5s;
+    }
+
+    .step_2 .step_2_wrap_ul>li {
+        width: 5%;
+        height: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 0 0.293333rem;
+        padding-top: 1.493333rem;
+    }
+
+    .step_2 .times {
+        width: 100%;
+        height: 1.066667rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: url('http://outsourceimagecdn.babyhouse.wang/assets/images/header-bg.jpg') no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .step_2 .timesValue {
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .step_2 .timesValue>img {
+        display: block;
+        width: 0.653333rem;
+        height: 0.653333rem;
+    }
+
+    .step_2 .timesValue>p {
+        font-size: 0.373333rem;
+        color: #ffe67f;
+        margin: 0 0.266667rem;
+    }
+
+    .step_2 .question {
+        width: 9.066667rem;
+        padding-top: 1.373333rem;
+        padding-bottom: 0.693333rem;
+        background: #f2efc2;
+        border-radius: 0.2rem;
+        margin: 0 auto;
+        position: relative;
+        box-shadow: 0 0 0.666667rem #494444;
+        margin-bottom: 0.4rem;
+    }
+
+    .step_2 .radius {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 2.373333rem;
+        height: 2.373333rem;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border-radius: 50%;
+        background: #f2efc2;
+        border: 1px dashed #c33b31;
+    }
+
+    .step_2 .radius:after {
+        content: "";
+        position: absolute;
+        height: 80%;
+        top: 12%;
+        left: 55%;
+        -webkit-transform: rotate(40deg);
+        transform: rotate(40deg);
+        width: 1px;
+        background: #999;
+    }
+
+    .step_2 .bgRadius {
+        width: 1.733333rem;
+        height: 1.733333rem;
+        position: absolute;
+        left: -50%;
+        top: 0;
+    }
+
+    .step_2 .radius>span {
+        font-size: 0.64rem;
+        color: #c24033;
+        position: absolute;
+    }
+
+    .step_2 .countNow {
+        left: 0.4rem;
+        top: 0.4rem;
+    }
+
+    .step_2 .allCount {
+        right: 0.266667rem;
+        bottom: 0.266667rem;
+    }
+
+    .step_2 .questionInfo {
+        width: 100%;
+        font-size: 0.426667rem;
+        color: #bfa26a;
+        line-height: 0.746667rem;
+        margin-top: 0.186667rem;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 0 0.293333rem;
+    }
+
+    .step_2 .answer {
+        width: 9.066667rem;
+        margin: 0 auto;
+    }
+
+    .step_2 .selectA,
+    .step_2 .selectB {
+        width: 100%;
+        min-height: 1.413333rem;
+        box-shadow: 0 0 0.533333rem #494444;
+        font-size: 0.426667rem;
+        color: #ad893d;
+        background: #f4d6d6;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        line-height: 0.666667rem;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-left: 0.32rem;
+        border-radius: 0.2rem;
+        margin-bottom: 0.333333rem;
+    }
+
+    /*.step_2 .selectA {
+        margin-bottom: 0.333333rem;
+    }*/
+
+    .step_2 .yes {
+        background: #6cdb84 !important;
+        color: #fff !important;
+    }
+
+    .step_2 .no {
+        background: #f73a50 !important;
+        color: #fff !important;
+    }
+
+    .answerSub {
+        width: 9.066667rem;
+        height: 1.133333rem;
+        text-align: center;
+        line-height: 1.133333rem;
+        font-size: 0.426667rem;
+        color: #fff;
+        background: #b58f50;
+        border-radius: 0.2rem;
+        margin-top: 0.613333rem;
+    }
+    /*结果页*/
+
+    .result {
+        width: 25%;
+        height: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding-top: 2.266667rem;
+        overflow: auto;
+        position: relative;
+        background: url('http://outsourceimagecdn.babyhouse.wang/assets/images/bg1.jpg') no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .result .resultTop {
+        width: 9.013333rem;
+        height: 4.546667rem;
+        border-radius: 0.2rem;
+        background: #f2efc2;
+        border: 1px solid #000;
+        margin: 0 auto;
+        position: relative;
+        margin-bottom: 1.333333rem;
+    }
+
+    .result .topRadious {
+        position: absolute;
+        width: 3.44rem;
+        height: 3.44rem;
+        border-radius: 50%;
+        background: #f2efc2;
+        left: 50%;
+        top: 0;
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .result .insideRadious {
+        width: 2.866667rem;
+        height: 2.866667rem;
+        border-radius: 50%;
+        border: 1px dashed #47451f;
+        font-size: 0.693333rem;
+        color: #bd9055;
+        text-align: center;
+        line-height: 2.866667rem;
+    }
+
+    .result .resultMsg {
+        width: 100%;
+        margin-top: 2.426667rem;
+    }
+
+    .result .resultMsg>p {
+        font-size: 0.52rem;
+        text-align: center;
+    }
+
+    .result .itemsCount {
+        color: #d83139;
+    }
+
+    .result .lavel {
+        font-weight: bold;
+        color: #b73c35;
+    }
+
+    .result .check {
+        width: 9.013333rem;
+        height: 1.106667rem;
+        border-radius: 0.133333rem;
+        background: #f2efc2;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 0.533333rem #494444;
+        font-size: 0.493333rem;
+        color: #d03a3c;
+        margin-bottom: 0.533333rem;
+    }
+    #sub {
+        width: 9.013333rem;
+        height: 1.106667rem;
+        border-radius: 0.133333rem;
+        background: #f2efc2;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 0.533333rem #494444;
+        font-size: 0.493333rem;
+        color: #d03a3c;
+    }
+    .result .inputs {
+        display: block;
+        width: 9.013333rem;
+        height: 1.106667rem;
+        border-radius: 0.133333rem;
+        background: #f2efc2;
+        margin: 0 auto;
+        box-shadow: 0 0 0.533333rem #494444;
+        font-size: 0.346667rem;
+        color: #000;
+        margin-bottom: 0.266667rem;
+        text-indent: 0.4rem;
+    }
+    .result input::-webkit-input-placeholder{
+      -webkit-text-fill-color:#d03a3c;
+      font-size: 0.346667rem;
+
+    }
+    .result .check>img {
+        display: block;
+        width: 0.466667rem;
+        height: 0.56rem;
+        margin-right: 0.32rem;
+    }
+
+    .result .others {
+        width: 9.013333rem;
+        height: 1.106667rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 0.493333rem;
+        color: #d03a3c;
+        margin: 0 auto;
+        margin-bottom: 0.533333rem;
+    }
+
+    .result .again,
+    .result .share {
+        width: 4.373333rem;
+        height: 100%;
+        box-shadow: 0 0 0.533333rem #494444;
+        border-radius: 0.133333rem;
+        background: #f2efc2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .result .again>img,
+    .result .share>img {
+        display: block;
+        width: 0.466667rem;
+        height: 0.56rem;
+        margin-right: 0.32rem;
+    }
+    /*答案也*/
+
+    .answerResult {
+        width: 25%;
+        height: 100%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 0 0.4rem;
+        padding-top: 0.666667rem;
+        position: relative;
+        background: url('http://outsourceimagecdn.babyhouse.wang/assets/images/bg1.jpg') no-repeat;
+        background-size: 100% 100%;
+        overflow: auto;
+    }
+
+    .answerResult .answerResult_ul {
+        width: 100%;
+        background: #f55d5c;
+        border-radius: 0.2rem;
+        border: 1px solid #000;
+        overflow: hidden;
+    }
+
+    .answerResult .title {
+        width: 100%;
+        height: 1.066667rem;
+        font-size: 0.426667rem;
+        color: #fff;
+        text-align: center;
+        line-height: 1.066667rem;
+    }
+
+    .answerResult .commonLi {
+        width: 100%;
+        background: #f4d6d6;
+        border-radius: 0.133333rem;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 0.666667rem 0.24rem;
+        font-size: 0.426667rem;
+        color: #a19a94;
+        margin-bottom: 0.066667rem;
+    }
+
+    .answerResult .commonLi .ti {
+        width: 100%;
+        line-height: 0.76rem;
+        margin-bottom: 0.32rem;
+    }
+
+    .answerResult .commonLi .da {
+        width: 100%;
+    }
+
+    .answerResult .commonLi .da>p {
+        min-height: 0.973333rem;
+        display: flex;
+        align-items: center;
+        line-height: 0.666667rem;
+        border-radius: 0.133333rem;
+        text-indent: 0.32rem;
+    }
+
+    .answerResult .green {
+        background: #097900;
+        color: #fff;
+    }
+
+    .answerResult .answerResultWrap {
+        width: 100%;
+        padding-bottom: 0.666667rem;
+    }
+
+    .answerResult .back {
+        width: 100%;
+        height: 1.066667rem;
+        font-size: 0.426667rem;
+        color: #f8263f;
+        line-height: 1.066667rem;
+        text-align: center;
+        background: #f2efc2;
+        margin-top: 0.533333rem;
+        border-radius: 0.2rem;
+    }
+    /*fix*/
+
+    .fixedShare {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: none;
+        z-index: 990;
+        background: rgba(0, 0, 0, .7);
+    }
+
+    @keyframes swingSlowResult {
+        20% {
+            -webkit-transform: rotate3d(0, 0, 1, 12deg);
+            transform: rotate3d(0, 0, 1, 12deg);
+        }
+
+        40% {
+            -webkit-transform: rotate3d(0, 0, 1, -10deg);
+            transform: rotate3d(0, 0, 1, -10deg);
+        }
+
+        60% {
+            -webkit-transform: rotate3d(0, 0, 1, 5deg);
+            transform: rotate3d(0, 0, 1, 5deg);
+        }
+
+        80% {
+            -webkit-transform: rotate3d(0, 0, 1, -5deg);
+            transform: rotate3d(0, 0, 1, -5deg);
+        }
+
+        to {
+            -webkit-transform: rotate3d(0, 0, 1, 0deg);
+            transform: rotate3d(0, 0, 1, 0deg);
+        }
+    }
+
+    .fixedShare>img {
+        display: block;
+        width: 2.7rem;
+        height: 3.093333rem;
+        position: absolute;
+        right: 0.133333rem;
+        top: 0.133333rem;
+        -webkit-transform-origin: top right;
+        transform-origin: top right;
+        -webkit-animation: swingSlowResult .8s;
+        animation: swingSlowResult .8s;
+    }
+    /* 提示框 */
+
+    @keyframes sizes {
+        0% {
+
+            transform: scale(1);
+        }
+        35% {
+            transform: scale(0.8);
+        }
+        75% {
+            transform: scale(1.1);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    .fixedBomb,.fixedBomb2,.fixedBomb3 {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: none;
+        z-index: 990;
+        background: rgba(0, 0, 0, .7);
+    }
+
+    .fixedBomb>div,.fixedBomb2>div,.fixedBomb3>div {
+        width: 8.0rem;
+        height: 2.666667rem;
+        border-radius: 0.2rem;
+        background: #fff;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 0.266667rem 0.666667rem;
+        padding-top: 0.666667rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -4.0rem;
+        margin-top: -1.333333rem;
+        -webkit-animation: sizes .7s;
+        animation: sizes .7s;
+    }
+
+    .fixedBomb>div>p,.fixedBomb2>div>p,.fixedBomb3>div>p {
+        font-size: 0.346667rem;
+        color: #ccc;
+        text-align: center;
+        line-height: 0.4rem;
+    }
+
+    .fixedBomb>div>img,.fixedBomb2>div>img,.fixedBomb3>div>img {
+        display: block;
+        width: 2.0rem;
+        height: 0.8rem;
+        margin: 0 auto;
+        margin-top: 0.266667rem;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div class="mainWrap" id="mainWraps">
+            <!-- 首页 -->
+            <div class="step_1">
+                <img class="titleImg titleImg_1" src="http://outsourceimagecdn.babyhouse.wang/assets/images/1.png">
+                <img class="titleImg titleImg_2" src="http://outsourceimagecdn.babyhouse.wang/assets/images/2.png">
+                <div class="imgbox">
+                    <img class="penImg" src="http://outsourceimagecdn.babyhouse.wang/assets/images/index1.png">
+                    <img class="bookImg" src="http://outsourceimagecdn.babyhouse.wang/assets/images/678.png">
+                </div>
+                <div class="btnImg"><img src="http://outsourceimagecdn.babyhouse.wang/assets/images/begin-test.png"></div>
+            </div>
+            <!-- 题 -->
+            <div class="step_2">
+                <div class="times">
+                    <div class="timesValue">
+                        <img src="http://outsourceimagecdn.babyhouse.wang/assets/images/clock.png" alt="">
+                        <p><span id="timeSpan">00:00</span>s</p>
+                    </div>
+                </div>
+                <div class="step_2_wrap">
+                    <ul class="step_2_wrap_ul" id="answersUl">
+                        <!-- <li class="step_2_items">
+                            <div class="question">
+                                <div class="radius">
+                                    <img src="http://outsourceimagecdn.babyhouse.wang/assets/images/q-title.png" class="bgRadius" alt="">
+                                    <span class="countNow">10</span>
+                                    <span class="allCount">20</span>
+                                </div>
+                                <p class="questionInfo">
+                                    <span>1、</span>十八大以来的五年，我国经济保持中高速增长，国内生产总值从五十四万亿元增长到（ ）亿元，稳居世界第二。
+                                </p>
+                            </div>
+                            <div class="answer">
+                                <div class="selectA">
+                                    <p>A、<span>的肚饿肚饿好肚饿好肚饿黑毒</span></p>
+                                </div>
+                                <div class="selectB">
+                                    <p>B、<span>的肚饿肚饿好肚饿好肚饿黑毒</span></p>
+                                </div>
+                            </div>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+            <!-- 结果页 -->
+            <div class="result">
+                <div style="padding-bottom: 0.533333rem">
+                    <div class="resultTop">
+                        <!-- yuan -->
+                        <div class="topRadious">
+                            <div class="insideRadious">
+                                0
+                            </div>
+                        </div>
+                        <!-- msg -->
+                        <div class="resultMsg">
+                            <p class="itemsCount">
+                                您答对了<span>0</span>道题
+                            </p>
+                            <p class="lavel">
+                                达到“<span></span>”水平
+                            </p>
+                        </div>
+                    </div>
+                    <!--查看答案-->
+                    <div class="check">
+                        <img src="http://outsourceimagecdn.babyhouse.wang/assets/images/watch.png" alt="">
+                        <p>查看答案</p>
+                    </div>
+                    <div class="others">
+                        <div class="again">
+                            <img src="http://outsourceimagecdn.babyhouse.wang/assets/images/refresh.png" alt="">
+                            <p>再做一次</p>
+                        </div>
+                        <div class="share">
+                            <img src="http://outsourceimagecdn.babyhouse.wang/assets/images/share-ico.png" alt="">
+                            <p>分享好友</p>
+                        </div>
+                    </div>
+                    <!-- 提交信息 -->
+                    <div style="margin-top: 0.533333rem;">
+                        <input type="text" placeholder="请填写您的姓名" class="inputs">
+                        <input type="text" placeholder="请填写您所在辖区" class="inputs">
+                        <input type="text" placeholder="请填写您的联系方式" class="inputs">
+                        <div id="sub"><p>提交</p></div>
+                    </div>
+                </div>
+            </div>
+            <!-- 答案 -->
+            <div class="answerResult">
+                <div class="answerResultWrap">
+                    <ul class="answerResult_ul">
+                        <li class="title">
+                            标准答案
+                        </li>
+                        <!-- <li class="commonLi">
+                            <div class="ti">
+                                十八大以来的五年，我国经济保持中高速增长，国内生产总值从五十四万亿元增长到（ ）亿元，稳居世界第二。
+                            </div>
+                            <div class="da">
+                                <p>A、<span>的肚饿肚饿好肚饿好肚饿黑毒</span></p>
+                                <p class="green">B、<span>的肚饿肚饿好肚饿好肚饿黑毒</span></p>
+                            </div>
+                        </li> -->
+                    </ul>
+                    <div class="back">
+                        返回
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 分享 -->
+        <div class="fixedShare">
+            <img src="http://outsourceimagecdn.babyhouse.wang/assets/images/22.png" alt="">
+        </div>
+        <!-- 弹框 -->
+        <div class="fixedBomb">
+            <div>
+                <p>您今天已完成2次答题，请明天再来答题吧</p>
+                <img src="http://outsourceimagecdn.babyhouse.wang/assets/images/ary.png" alt="" class="closeImg">
+            </div>
+        </div>
+        <div class="fixedBomb2">
+            <div>
+                <p>请填写完整的信息</p>
+                <img src="http://outsourceimagecdn.babyhouse.wang/assets/images/ary.png" alt="" class="closeImg2">
+            </div>
+        </div>
+        <div class="fixedBomb3">
+            <div>
+                <p>信息提交成功,感谢您的参与</p>
+                <img src="http://outsourceimagecdn.babyhouse.wang/assets/images/ary.png" alt="" class="closeImg3">
+            </div>
+        </div>
+        <!-- 音频文件 -->
+        <audio src="http://outsourceimagecdn.babyhouse.wang/assets/music/right1.mp3" id="bgaudio" style="display: none; position: absolute; z-index: -1;"></audio>
+    </div>
+</body>
+<script src='http://outsourceimagecdn.babyhouse.wang/assets/js/zepto-min.js'></script>
+<!-- 微信分享 -->
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script type="text/javascript">
+function wxSdk() {
+    var urls = encodeURIComponent(window.location.href);
+    $.post("http://www.atchuangke.com/v1/wechat/getJsApiSignPackage.json", {
+            url: urls,
+            fields: 'app_id,nonce_str,timestamp,signature'
+        },
+        function(datas) {
+            wx.config({
+                debug: false,
+                appId: datas.data.app_id,
+                timestamp: parseInt(datas.data.timestamp),
+                nonceStr: datas.data.nonce_str,
+                signature: datas.data.signature,
+                jsApiList: [
+                    'onMenuShareAppMessage',
+                    'onMenuShareTimeline'
+                ]
+            });
+            wx.ready(function() {
+                wx.onMenuShareTimeline({
+                    title: '@所有人:来自新时代的一份考卷，请查收',  
+                    link: 'http://outsource.babyhouse.wang/', 
+                    imgUrl: 'http://outsourceimagecdn.babyhouse.wang/assets/images/300.png'
+                });
+                wx.onMenuShareAppMessage({
+                    title: '@所有人:来自新时代的一份考卷，请查收',    
+                    desc: '是学霸还是学神测试一下你有多强?',  
+                    link: 'http://outsource.babyhouse.wang/',  
+                    imgUrl: 'http://outsourceimagecdn.babyhouse.wang/assets/images/300.png',    
+                    type: '', // 分享类型,music、video或link，不填默认为link    
+                    dataUrl: ''
+                });
+            });
+        });
+    
+}
+
+function addtimes() {
+    // 计时器 的 初始化
+    var count = 0,
+        TimeStr = '',
+        hour = 0,
+        secStr = '00',
+        hourStr = '00',
+        times,
+        startTimes = 0;
+    // 记录开始答题的时间
+    startTimes = new Date().getTime();
+    sessionStorage.setItem('startTimes', startTimes.toString());
+    // 清除上次的记录的时间
+    window.clearInterval(sessionStorage.getItem('timesInv'));
+    $('#timeSpan').text('00:00');
+    // 计时器
+    times = setInterval(function () {
+        count++;
+        if (count < 10) {
+            secStr = '0' + count;
+        } else {
+            if (count >= 60) {
+                secStr = '00';
+                hour++;
+                if (hour < 10) {
+                    hourStr = '0' + hour;
+                } else {
+                    if (hour > 60) {
+                        hourStr = '00'
+                        window.clearInterval(times)
+                    } else {
+                        hourStr = hour
+                    }
+                }
+            } else {
+                secStr = count
+            }
+        }
+        TimeStr = hourStr + ':' + secStr;
+        $('#timeSpan').text(TimeStr)
+    }, 1000)
+    sessionStorage.setItem('timesInv', times);
+}
+// 总的页面滚动
+function sliderWrap() {
+    // $.get('http://outsource.babyhouse.wang/v1/user.json?fields=today_answer_count', function(response) {
+    //     if (response.error_code == 0) {
+    //         if (response.data.today_answer_count >= 2) {
+    //             $('.fixedBomb').css({
+    //                 display: 'block'
+    //             });
+    //         } else {
+    //             $('#main .mainWrap').css({
+    //                 transform: 'translate3d(-25%,0,0)'
+    //             })
+    //             addtimes();
+    //         }
+    //     } else {
+    //         alert('获取不到用户信息');
+    //     }
+    // })
+    $('#main .mainWrap').css({
+        transform: 'translate3d(-25%,0,0)'
+    })
+    addtimes();
+};
+// 创建问题的节点
+// 参数说明
+// idx表示第几题
+function addDom(idx, itemsObj) {
+    // console.log(itemsObj)
+    var li = $(`
+        <li class="step_2_items">
+            <div class="question">
+                <!-- 元 -->
+                <div class="radius">
+                    <img src="http://outsourceimagecdn.babyhouse.wang/assets/images/q-title.png" class="bgRadius" alt="">
+                    <span class="countNow">${idx+1}</span>
+                    <span class="allCount">20</span>
+                </div>
+                <!-- 题 -->
+                <p class="questionInfo">
+                    <span>${idx+1}、</span>${itemsObj.title}
+                </p>
+            </div>
+        </li>
+    `)
+    var div = $(`
+        <div class="answer">
+            <div class="selectA selectAnswer" selectData=${itemsObj.answer[0].isRight}>
+                <p>A、<span>${itemsObj.answer[0].content}</span></p>
+            </div>
+            <div class="selectB selectAnswer" selectData=${itemsObj.answer[1].isRight}>
+                <p>B、<span>${itemsObj.answer[1].content}</span></p>
+            </div>
+            <div class="selectB selectAnswer" selectData=${itemsObj.answer[2].isRight}>
+                <p>C、<span>${itemsObj.answer[2].content}</span></p>
+            </div>
+            <div class="selectB selectAnswer" selectData=${itemsObj.answer[3].isRight}>
+                <p>D、<span>${itemsObj.answer[3].content}</span></p>
+            </div>
+        </div>
+    `)
+    var btn = `
+        <div class='answerSub'>提交答卷</div>
+    `
+    $('.step_2_wrap_ul').append(li);
+    $('.step_2_wrap_ul .step_2_items').eq(idx).append(div)
+    if (idx == 19) {
+        $('.step_2_wrap_ul .step_2_items .answer').eq(idx).append(btn)
+    }
+}
+
+function addAnswerDom(idx, itemsObj) {
+    // 答案公布
+    var answerLi = $(`
+        <li class="commonLi">
+            <div class="ti">
+                ${idx+1}、<span>${itemsObj.title}</span>
+            </div>
+        </li>
+    `)
+    var items = $(`
+        <div class="da">
+            <p class="A">A、<span>${itemsObj.answer[0].content}</span></p>
+            <p class="B">B、<span>${itemsObj.answer[1].content}</span></p>
+            <p class="C">C、<span>${itemsObj.answer[2].content}</span></p>
+            <p class="D">D、<span>${itemsObj.answer[3].content}</span></p>
+        </div>
+    `)
+    $('.answerResult_ul').append(answerLi);
+    $('.answerResult_ul .commonLi').eq(idx).append(items)
+}
+// 产生随机不重复的函数
+function radoms(arr) {
+    for (var i = 0; i > -1; i++) {
+        var flag = true;
+        var num = Math.floor(Math.random() * 60);
+        for (var i in arr) {
+            if (arr[i] == num) {
+                flag = false;
+                break;
+            }
+        }
+        if (flag == true) {
+            arr.push(num);
+            return;
+        }
+    }
+}
+$(function() {
+    // 初始化信息
+    $('.result .inputs').eq(0).val('')
+    $('.result .inputs').eq(1).val('')
+    $('.result .inputs').eq(2).val('')
+    // 提交信息
+    $('#sub').click(function(event) {
+       var name = $('.result .inputs').eq(0).val();
+       var area = $('.result .inputs').eq(1).val();
+       var tele = $('.result .inputs').eq(2).val();
+       if (name && area && tele) {
+          $.post('http://outsource.babyhouse.wang/v1/contact.json',{
+            contact: name,
+            area: area,
+            telephone: tele
+          },function(res){
+            if (res.error_code == 0) {
+                $('.fixedBomb3').css({
+                      display: 'block'
+                  });
+            } else {
+                alert('信息提交失败')
+            }
+          })
+       } else {
+          $('.fixedBomb2').css({
+              display: 'block'
+          });
+       }
+    });
+    $('.step_1 .btnImg').click(function(event) {
+        sliderWrap();
+    });
+    // 关闭提示框
+    $('.closeImg').click(function(event) {
+        $('.fixedBomb').css({
+            display: 'none'
+        });
+    });
+    $('.closeImg2').click(function(event) {
+        $('.fixedBomb2').css({
+            display: 'none'
+        });
+    });
+    $('.closeImg3').click(function(event) {
+        $('.fixedBomb3').css({
+            display: 'none'
+        });
+        window.location.href = '/?t='+ new Date().getTime();
+    });
+    // 微信分享
+    wxSdk();
+    // cookie
+    $.ajaxSettings.beforeSend = function(xhr) {
+        xhr.withCredentials = true;
+    };
+    // 答案结果页返回
+    $('.answerResultWrap .back').click(function(event) {
+        window.location.href = '/?t='+ new Date().getTime();
+    });
+    // 问题与答案
+    var questionArr = [{
+        "title": "中国共产党第十九次全国代表大会，是在全面建成小康社会决胜阶段、中国特色社会主义进入_____的关键时期召开的一次十分重要的大会。",
+        "img": "",
+        "score": 1,
+        "answer": [{
+            "content": "新时期",
+            "isRight": false
+        }, {
+            "content": "新阶段",
+            "isRight": false
+        },{
+            "content": "新征程",
+            "isRight": false
+        },{
+            "content": "新时代",
+            "isRight": true
+        }],
+        "id": "8ySKDGKd",
+        "isMultiselect": false
+    }, {
+        "img": "",
+        "title": "十九大的主题是：不忘初心，____，高举中国特色社会主义伟大旗帜，决胜全面建成小康社会，夺取新时代中国特色社会主义伟大胜利，为实现中华民族伟大复兴的中国梦不懈奋斗。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "继续前进",
+            "isRight": false
+        }, {
+            "content": "牢记使命",
+            "isRight": true
+        },{
+            "content": "方得始终",
+            "isRight": false
+        },{
+            "content": "砥砺前行",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "中国共产党人的初心和使命，就是为中国人民____ ，为中华民族____。这个初心和使命是激励中国共产党人不断前进的根本动力。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "谋幸福,谋未来",
+            "isRight": false
+        }, {
+            "content": "谋生活,谋复兴",
+            "isRight": false
+        },{
+            "content": "谋幸福,谋复兴",
+            "isRight": true
+        },{
+            "content": "谋生活,谋未来",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "五年来，我们统筹推进“____”总体布局、协调推进“____”战略布局，“十二五”规划胜利完成，“十三五”规划顺利实施，党和国家事业全面开创新局面。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "五位一体四个全面",
+            "isRight": true
+        }, {
+            "content": "四位一体五个全面",
+            "isRight": false
+        },{
+            "content": "五个全面四位一体",
+            "isRight": false
+        },{
+            "content": "四个全面五位一体",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "过去五年，经济保持中高速增长，在世界主要国家中名列前茅，国内生产总值从五十四万亿元增长到____万亿元，稳居世界第二，对世界经济增长贡献率超过百分之三十。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "六十",
+            "isRight": false
+        }, {
+            "content": "七十",
+            "isRight": false
+        },{
+            "content": "八十",
+            "isRight": true
+        },{
+            "content": "九十",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "脱贫攻坚战取得决定性进展，____贫困人口稳定脱贫，贫困发生率从百分之十点二下降到百分之四以下。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "六千多万",
+            "isRight": true
+        }, {
+            "content": "七千多万",
+            "isRight": false
+        },{
+            "content": "八千多万",
+            "isRight": false
+        },{
+            "content": "九千多万",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "实施共建“一带一路”倡议，发起创办亚洲基础设施投资银行，设立丝路基金，举办首届“一带一路”国际合作高峰论坛、亚太经合组织领导人非正式会议、二十国集团领导人____峰会、金砖国家领导人____会晤、亚信峰会。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "北京南京",
+            "isRight": false
+        }, {
+            "content": "杭州厦门",
+            "isRight": true
+        },{
+            "content": "南京北京",
+            "isRight": false
+        },{
+            "content": "厦门杭州",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "坚持反腐败无禁区、全覆盖、零容忍，坚定不移“打虎”、“拍蝇”、“猎狐”，____的目标初步实现，____的笼子越扎越牢，____的堤坝正在构筑，反腐败斗争压倒性态势已经形成并巩固发展。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "不敢腐不能腐不想腐",
+            "isRight": true
+        }, {
+            "content": "不能腐不敢腐不想腐",
+            "isRight": false
+        },{
+            "content": "不想腐不敢腐不能腐",
+            "isRight": false
+        },{
+            "content": "不敢腐不想腐不能腐",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "经过长期努力，中国特色社会主义进入了新时代，这是我国发展新的____。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "未来方向",
+            "isRight": false
+        }, {
+            "content": "未来方位",
+            "isRight": false
+        },{
+            "content": "历史方向",
+            "isRight": false
+        },{
+            "content": "历史方位",
+            "isRight": true
+        }]
+    }, {
+        "img": "",
+        "title": "中国特色社会主义进入新时代，我国社会主要矛盾已经转化为人民日益增长的____需要和____的发展之间的矛盾。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "美好生活不充分不平衡",
+            "isRight": false
+        }, {
+            "content": "幸福生活不平衡不充分",
+            "isRight": false
+        },{
+            "content": "幸福生活不充分不平衡",
+            "isRight": false
+        },{
+            "content": "美好生活不平衡不充分",
+            "isRight": true
+        }]
+    }, {
+        "img": "",
+        "title": "必须认识到，我国社会主要矛盾的变化，没有改变我们对我国社会主义所处历史阶段的判断，我国仍处于并将长期处于____的基本国情没有变，我国是世界最大发展中国家的国际地位没有变。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "社会主义阶段",
+            "isRight": false
+        }, {
+            "content": "社会主义初级阶段",
+            "isRight": true
+        },{
+            "content": "社会主义中级阶段",
+            "isRight": false
+        },{
+            "content": "社会主义高级阶段",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "_____是实现社会主义现代化、创造人民美好生活的必由之路。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "中国特色社会主义道路",
+            "isRight": true
+        }, {
+            "content": "中国特色社会主义理论体系",
+            "isRight": false
+        },{
+            "content": "中国特色社会主义制度",
+            "isRight": false
+        },{
+            "content": "中国特色社会主义文化",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "_____是指导党和人民实现中华民族伟大复兴的正确理论。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "中国特色社会主义道路",
+            "isRight": false
+        }, {
+            "content": "中国特色社会主义理论体系",
+            "isRight": true
+        },{
+            "content": "中国特色社会主义制度",
+            "isRight": false
+        },{
+            "content": "中国特色社会主义文化",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "_____是当代中国发展进步的根本制度保障。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "中国特色社会主义道路",
+            "isRight": false
+        }, {
+            "content": "中国特色社会主义理论体系",
+            "isRight": false
+        }, {
+            "content": "中国特色社会主义制度",
+            "isRight": true
+        }, {
+            "content": "中国特色社会主义文化",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "_____中国特色社会主义文化是激励全党全国各族人民奋勇前进的强大精神力量。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "中国特色社会主义道路",
+            "isRight": false
+        }, {
+            "content": "中国特色社会主义理论体系",
+            "isRight": false
+        },{
+            "content": "中国特色社会主义制度",
+            "isRight": false
+        },{
+            "content": "中国特色社会主义文化",
+            "isRight": true
+        }]
+    }, {
+        "img": "",
+        "title": "新时代中国特色社会主义思想，明确坚持和发展中国特色社会主义，总任务是实现社会主义现代化和中华民族伟大复兴，在全面建成小康社会的基础上，分____在本世纪中叶建成富强民主文明和谐美丽的社会主义现代化强国。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "两步走",
+            "isRight": true
+        }, {
+            "content": "三步走",
+            "isRight": false
+        }, {
+            "content": "四步走",
+            "isRight": false
+        }, {
+            "content": "五步走",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "新时代中国特色社会主义思想，明确中国特色社会主义最本质的特征是____。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "五位一体总体布局",
+            "isRight": false
+        }, {
+            "content": "建设中国特色社会主义法治体系",
+            "isRight": false
+        }, {
+            "content": "人民利益为根本出发点",
+            "isRight": false
+        }, {
+            "content": "中国共产党领导",
+            "isRight": true
+        }]
+    }, {
+        "img": "",
+        "title": "发展是解决我国一切问题的基础和关键，发展必须是科学发展，必须坚定不移贯彻____的发展理念。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "创新、协调、绿色、开放、共享",
+            "isRight": true
+        }, {
+            "content": "创造、协调、生态、开放、共享",
+            "isRight": false
+        }, {
+            "content": "创新、统筹、绿色、开放、共享",
+            "isRight": false
+        }, {
+            "content": "创造、统筹、生态、开放、共享",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "____是中国特色社会主义的本质要求和重要保障。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "全面依法治国",
+            "isRight": true
+        }, {
+            "content": "全面从严治党",
+            "isRight": false
+        }, {
+            "content": "全面发展经济",
+            "isRight": false
+        }, {
+            "content": "全面可持续发展",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "____是一个国家、一个民族发展中更基本、更深沉、更持久的力量。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "道路自信",
+            "isRight": false
+        }, {
+            "content": "理论自信",
+            "isRight": false
+        }, {
+            "content": "制度自信",
+            "isRight": false
+        }, {
+            "content": "文化自信",
+            "isRight": true
+        }]
+    }, {
+        "img": "",
+        "title": "必须统筹国内国际两个大局，始终不渝走和平发展道路、奉行____的开放战略。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "互利共赢",
+            "isRight": true
+        }, {
+            "content": "互相合作",
+            "isRight": false
+        }, {
+            "content": "包容互信",
+            "isRight": false
+        }, {
+            "content": "开放共赢",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "从现在到二〇二〇年，是全面建成小康社会______。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "决战期",
+            "isRight": false
+        }, {
+            "content": "决胜期",
+            "isRight": true
+        }, {
+            "content": "关键期",
+            "isRight": false
+        }, {
+            "content": "攻坚期",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "从____到____，是“两个一百年”奋斗目标的历史交汇期。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "二〇二〇年二〇三五年",
+            "isRight": false
+        }, {
+            "content": "十九大二十大",
+            "isRight": true
+        }, {
+            "content": "二十大二十一大",
+            "isRight": false
+        }, {
+            "content": "二〇三五年本世纪中叶",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "综合分析国际国内形势和我国发展条件，从二〇二〇年到本世纪中叶可以分两个阶段来安排。第一个阶段，从______到______，在全面建成小康社会的基础上，再奋斗十五年，基本实现社会主义现代化。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "二〇二〇年二〇三五年",
+            "isRight": true
+        }, {
+            "content": "二〇二五年二〇四〇年",
+            "isRight": false
+        }, {
+            "content": "二〇三〇年二〇四五年",
+            "isRight": false
+        }, {
+            "content": "二〇三五年本世纪中叶",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "综合分析国际国内形势和我国发展条件，从二〇二〇年到本世纪中叶可以分两个阶段来安排。第二个阶段，从_____到_____，在基本实现现代化的基础上，再奋斗十五年，把我国建成富强民主文明和谐美丽的社会主义现代化强国。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "二〇二〇年二〇三五年",
+            "isRight": false
+        }, {
+            "content": "二〇三五年二〇五〇年",
+            "isRight": false
+        }, {
+            "content": "二〇三〇年二〇四五年",
+            "isRight": false
+        }, {
+            "content": "二〇三五年本世纪中叶",
+            "isRight": true
+        }]
+    }, {
+        "img": "",
+        "title": "从全面建成小康社会到基本实现现代化，再到全面建成____，是新时代中国特色社会主义发展的战略安排。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "创新型国家",
+            "isRight": false
+        }, {
+            "content": "社会主义现代化强国",
+            "isRight": true
+        }, {
+            "content": "社会主义现代化大国",
+            "isRight": false
+        }, {
+            "content": "世界一流强国",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "实现“两个一百年”奋斗目标、实现中华民族伟大复兴的中国梦，不断提高人民生活水平，必须坚定不移把_____作为党执政兴国的第一要务。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "创新",
+            "isRight": false
+        }, {
+            "content": "改革",
+            "isRight": false
+        }, {
+            "content": "发展",
+            "isRight": true
+        }, {
+            "content": "开放",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "我国经济已由______阶段转向______阶段，正处在转变发展方式、优化经济结构、转换增长动力的攻关期，建设现代化经济体系是跨越关口的迫切要求和我国发展的战略目标。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "高速增长高水平发展",
+            "isRight": false
+        }, {
+            "content": "高速发展高水平发展",
+            "isRight": false
+        }, {
+            "content": "高速增长高质量发展",
+            "isRight": true
+        }, {
+            "content": "高速发展高质量发展",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "贯彻新发展理念，建设现代化经济体系，必须坚持质量第一、效益优先，以_______为主线。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "转变发展方式",
+            "isRight": false
+        }, {
+            "content": "优化经济结构",
+            "isRight": false
+        }, {
+            "content": "供给侧结构性改革",
+            "isRight": true
+        }, {
+            "content": "转换增长动力",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "建设现代化经济体系，必须把发展经济的着力点放在______上，把提高供给体系质量作为主攻方向，显著增强我国经济质量优势。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "实体经济",
+            "isRight": true
+        }, {
+            "content": "共享经济",
+            "isRight": false
+        }, {
+            "content": "虚拟经济",
+            "isRight": false
+        }, {
+            "content": "国民经济",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "______是引领发展的第一动力，是建设现代化经济体系的战略支撑。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "改革",
+            "isRight": false
+        }, {
+            "content": "创新",
+            "isRight": true
+        }, {
+            "content": "开放",
+            "isRight": false
+        }, {
+            "content": "科技",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "保持土地承包关系稳定并长久不变，第二轮土地承包到期后再延长_____年。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "二十",
+            "isRight": false
+        }, {
+            "content": "三十",
+            "isRight": true
+        }, {
+            "content": "四十",
+            "isRight": false
+        }, {
+            "content": "五十",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "确保到______我国现行标准下农村贫困人口实现脱贫，贫困县全部摘帽，解决区域性整体贫困，做到脱真贫、真脱贫。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "二〇三〇年",
+            "isRight": false
+        }, {
+            "content": "二〇二〇年",
+            "isRight": true
+        }, {
+            "content": "二〇二五年",
+            "isRight": false
+        }, {
+            "content": "二〇三五年",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "加快完善社会主义市场经济体制。经济体制改革必须以________和________为重点，实现产权有效激励、要素自由流动、价格反应灵活、竞争公平有序、企业优胜劣汰。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "完善产权制度要素市场化配置",
+            "isRight": true
+        }, {
+            "content": "要素市场化配置建立现代财政制度",
+            "isRight": false
+        }, {
+            "content": "建立现代财政制度创新和完善宏观调控",
+            "isRight": false
+        }, {
+            "content": "完善产权制度创新和完善宏观调控",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "推动形成全面开放新格局。要以_____建设为重点，坚持引进来和走出去并重，遵循共商共建共享原则，加强创新能力开放合作，形成陆海内外联动、东西双向互济的开放格局。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "金砖机制",
+            "isRight": false
+        }, {
+            "content": "自贸区",
+            "isRight": false
+        }, {
+            "content": "一带一路",
+            "isRight": true
+        }, {
+            "content": "区域合作",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "赋予自由贸易试验区更大改革自主权，探索建设______",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "自由贸易城",
+            "isRight": false
+        }, {
+            "content": "自由贸易区",
+            "isRight": false
+        }, {
+            "content": "自由贸易港",
+            "isRight": true
+        }, {
+            "content": "自由贸易市",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "坚持党的领导、人民当家作主、依法治国有机统一。_______是社会主义民主政治的本质特征。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "党的领导",
+            "isRight": false
+        }, {
+            "content": "人民当家作主",
+            "isRight": true
+        }, {
+            "content": "依法治国",
+            "isRight": false
+        }, {
+            "content": "政治体制改革",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "加强人民当家作主制度保障。______是坚持党的领导、人民当家作主、依法治国有机统一的根本政治制度安排。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "人民代表大会制度",
+            "isRight": true
+        }, {
+            "content": "多党合作和政治协商制度",
+            "isRight": false
+        }, {
+            "content": "民族区域自治制度",
+            "isRight": false
+        }, {
+            "content": "基层群众自治制度",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "发挥社会主义协商民主重要作用。______是具有中国特色的制度安排，是社会主义协商民主的重要渠道和专门协商机构。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "政党协商",
+            "isRight": false
+        }, {
+            "content": "人大协商",
+            "isRight": false
+        }, {
+            "content": "基层协商",
+            "isRight": false
+        }, {
+            "content": "人民政协",
+            "isRight": true
+        }]
+    }, {
+        "img": "",
+        "title": "深化依法治国实践。成立中央全面______领导小组，加强对法治中国建设的统一领导。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "深化改革",
+            "isRight": false
+        }, {
+            "content": "依法治国",
+            "isRight": true
+        }, {
+            "content": "从严治党",
+            "isRight": false
+        }, {
+            "content": "司法改革",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "深化机构和行政体制改革。转变政府职能，深化简政放权，创新监管方式，增强政府公信力和执行力，建设人民满意的______政府。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "法治",
+            "isRight": false
+        }, {
+            "content": "创新型",
+            "isRight": false
+        }, {
+            "content": "廉洁",
+            "isRight": false
+        }, {
+            "content": "服务型",
+            "isRight": true
+        }]
+    }, {
+        "img": "",
+        "title": "全党必须牢记，______的问题，是检验一个政党、一个政权性质的试金石。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "为什么人",
+            "isRight": true
+        }, {
+            "content": "执政宗旨",
+            "isRight": false
+        }, {
+            "content": "建党宗旨",
+            "isRight": false
+        }, {
+            "content": "权力来源",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "建设______是中华民族伟大复兴的基础工程。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "经济强国",
+            "isRight": false
+        }, {
+            "content": "政治强国",
+            "isRight": false
+        }, {
+            "content": "教育强国",
+            "isRight": true
+        }, {
+            "content": "文化强国",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "国家安全是安邦定国的重要基石，______是全国各族人民根本利益所在。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "加快经济发展",
+            "isRight": false
+        }, {
+            "content": "维护国家统一",
+            "isRight": false
+        }, {
+            "content": "促进国际合作",
+            "isRight": false
+        }, {
+            "content": "维护国家安全",
+            "isRight": true
+        }]
+    }, {
+        "img": "",
+        "title": "我们要建设的现代化是人与自然_____的现代化。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "和谐相处",
+            "isRight": false
+        }, {
+            "content": "和睦相处",
+            "isRight": false
+        }, {
+            "content": "和谐共生",
+            "isRight": true
+        }, {
+            "content": "和睦共生",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "加快建立绿色生产和消费的法律制度和政策导向，建立健全____的经济体系。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "绿色低碳循环发展",
+            "isRight": true
+        }, {
+            "content": "绿色节约循环发展",
+            "isRight": false
+        }, {
+            "content": "绿色低碳节约发展",
+            "isRight": false
+        }, {
+            "content": "节约低碳循环发展",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "加强对生态文明建设的总体设计和组织领导，设立________机构。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "国有自然资源资产管理和自然环境监管",
+            "isRight": false
+        }, {
+            "content": "国有自然资源资产管理和自然生态监管",
+            "isRight": true
+        }, {
+            "content": "国有自然资源资产监管和自然生态管理",
+            "isRight": false
+        }, {
+            "content": "国有自然环境资产监管和自然生态管理",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "我们要牢固树立社会主义生态文明观，推动形成______现代化建设新格局，为保护生态环境作出我们这代人的努力！",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "人与自然和谐共生",
+            "isRight": false
+        }, {
+            "content": "人与环境和谐发展",
+            "isRight": false
+        }, {
+            "content": "人与自然和谐发展",
+            "isRight": true
+        }, {
+            "content": "人与环境和谐共生",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "适应世界新军事革命发展趋势和国家安全需求，提高建设质量和效益，确保到二〇二〇年基本实现____，____建设取得重大进展，____有大的提升。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "现代化信息化战斗能力",
+            "isRight": false
+        }, {
+            "content": "机械化信息化战斗能力",
+            "isRight": false
+        }, {
+            "content": "机械化信息化战略能力",
+            "isRight": true
+        }, {
+            "content": "现代化信息化战略能力",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "力争到二〇三五年____国防和军队现代化，到本世纪中叶把人民军队____世界一流军队。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "全面实现基本建成",
+            "isRight": false
+        }, {
+            "content": "全面实现全面建成",
+            "isRight": false
+        }, {
+            "content": "基本实现基本建成",
+            "isRight": false
+        }, {
+            "content": "基本实现全面建成",
+            "isRight": true
+        }]
+    }, {
+        "img": "",
+        "title": "树立____是核心战斗力的思想，推进重大技术创新、自主创新，加强军事人才培养体系建设，建设创新型人民军队。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "创新",
+            "isRight": false
+        }, {
+            "content": "科技",
+            "isRight": true
+        }, {
+            "content": "人才",
+            "isRight": false
+        }, {
+            "content": "技术",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "军队是要准备打仗的，一切工作都必须坚持____标准，向能打仗、打胜仗聚焦。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "战斗力",
+            "isRight": true
+        }, {
+            "content": "斗争力",
+            "isRight": false
+        }, {
+            "content": "战争力",
+            "isRight": false
+        }, {
+            "content": "硬实力",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "解决台湾问题、实现祖国完全统一，是全体中华儿女____，是中华民族____所在。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "一致愿望根本利益",
+            "isRight": false
+        }, {
+            "content": "共同愿望本质利益",
+            "isRight": false
+        }, {
+            "content": "一致愿望本质利益",
+            "isRight": false
+        }, {
+            "content": "共同愿望根本利益",
+            "isRight": true
+        }]
+    }, {
+        "img": "",
+        "title": "______是两岸关系的政治基础",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "九二共识",
+            "isRight": false
+        }, {
+            "content": "反对台独",
+            "isRight": false
+        }, {
+            "content": "一个中国原则",
+            "isRight": true
+        }, {
+            "content": "和平统一",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "我们呼吁，各国人民同心协力，构建人类命运共同体，建设______的世界。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "持久和平、普遍安全、共同繁荣、开放包容、公平正义",
+            "isRight": false
+        }, {
+            "content": "持久和平、普遍安全、共同繁荣、公平正义、清洁美丽",
+            "isRight": false
+        }, {
+            "content": "持久和平、普遍安全、共同繁荣、开放包容、清洁美丽",
+            "isRight": true
+        }, {
+            "content": "持久和平、普遍安全、公平正义、开放包容、清洁美丽",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "深刻认识党面临的________的尖锐性和严峻性，坚持问题导向，保持战略定力，推动全面从严治党向纵深发展。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "精神懈怠危险、能力不足危险、脱离群众危险、消极腐败危险",
+            "isRight": true
+        }, {
+            "content": "精神懈怠危险、封闭僵化危险、脱离群众危险、消极腐败危险",
+            "isRight": false
+        }, {
+            "content": "精神懈怠危险、能力不足危险、官僚主义危险、消极腐败危险",
+            "isRight": false
+        }, {
+            "content": "精神懈怠危险、能力不足危险、脱离群众危险、腐化堕落危险",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "党的____是党的根本性建设，决定党的建设方向和效果。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "思想建设",
+            "isRight": false
+        }, {
+            "content": "政治建设",
+            "isRight": true
+        }, {
+            "content": "组织建设",
+            "isRight": false
+        }, {
+            "content": "制度建设",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "要尊崇党章，严格执行新形势下党内政治生活若干准则，增强党内政治生活的____。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "政治性、时代性、原则性、战斗性",
+            "isRight": true
+        }, {
+            "content": "思想性、政治性、时代性、原则性",
+            "isRight": false
+        }, {
+            "content": "政治性、思想性、时代性、原则性",
+            "isRight": false
+        }, {
+            "content": "政治性、思想性、时代性、战斗性",
+            "isRight": false
+        }]
+    }, {
+        "img": "",
+        "title": "坚决防止和反对_________，坚决防止和反对宗派主义、圈子文化、码头文化，坚决反对搞两面派、做两面人。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "个人主义、享乐主义、自由主义、本位主义、好人主义",
+            "isRight": false
+        }, {
+            "content": "个人主义、分散主义、山头主义、本位主义、好人主义",
+            "isRight": false
+        }, {
+            "content": "个人主义、分散主义、自由主义、本位主义、好人主义",
+            "isRight": true
+        }, {
+            "content": "个人主义、分散主义、自由主义、本位主义、享乐主义",
+            "isRight": false
+        }]
+    },{
+        "img": "",
+        "title": "_____和_____，是中国共产党人的精神支柱和政治灵魂，也是保持党的团结统一的思想基础。",
+        "score": 1,
+        "isMultiselect": false,
+        "answer": [{
+            "content": "共产主义远大理想新时代中国特色社会主义共同理想",
+            "isRight": false
+        }, {
+            "content": "共产主义远大理想中国特色社会主义共同理想",
+            "isRight": true
+        }, {
+            "content": "共产主义崇高理想新时代中国特色社会主义共同理想",
+            "isRight": false
+        }, {
+            "content": "共产主义崇高理想中国特色社会主义共同理想",
+            "isRight": false
+        }]
+    }];
+    // 首先产生一个1-20的随机函数
+    var numArr = [];
+    for (var j = 0; j < 20; j++) {
+        radoms(numArr);
+    }
+    for (var i = 0; i < numArr.length; i++) {
+        addDom(i, questionArr[numArr[i]]);
+        addAnswerDom(i, questionArr[numArr[i]]);
+        if (questionArr[i].answer[0].isRight == true) {
+            $('.answerResult_ul .commonLi').eq(i).find('.A').addClass('green')
+        }
+        if (questionArr[i].answer[1].isRight == true) {
+            $('.answerResult_ul .commonLi').eq(i).find('.B').addClass('green')
+        }
+        if (questionArr[i].answer[2].isRight == true) {
+            $('.answerResult_ul .commonLi').eq(i).find('.C').addClass('green')
+        }
+        if (questionArr[i].answer[3].isRight == true) {
+            $('.answerResult_ul .commonLi').eq(i).find('.D').addClass('green')
+        }
+    }
+    // 点击答案的时候
+    var onlyClickOne = true,
+        clickCount = 0,
+        trueCount = 0;
+    $('.selectAnswer').click(function(event) {
+        // 限制其点击次数
+        if (onlyClickOne) {
+            // 判断是否为最后一道题
+            if (clickCount == 19) {
+                // 判断其答案是否正确
+                var answerCheck = $(this).attr('selectData');
+                if (answerCheck == 'true') {
+                    $(this).addClass('yes');
+                    trueCount++;
+                    document.getElementById('bgaudio').setAttribute('src', 'http://outsourceimagecdn.babyhouse.wang/assets/music/right1.mp3');
+                    document.getElementById('bgaudio').play();
+                } else {
+                    $(this).addClass('no');
+                    document.getElementById('bgaudio').setAttribute('src', 'http://outsourceimagecdn.babyhouse.wang/assets/music/error.mp3');
+                    document.getElementById('bgaudio').play();
+                }
+                onlyClickOne = false
+                return;
+            } else {
+                // 判断其答案是否正确
+                var answerCheck = $(this).attr('selectData');
+                if (answerCheck == 'true') {
+                    $(this).addClass('yes');
+                    trueCount++;
+                    document.getElementById('bgaudio').setAttribute('src', 'http://outsourceimagecdn.babyhouse.wang/assets/music/right1.mp3');
+                    document.getElementById('bgaudio').play();
+                } else {
+                    $(this).addClass('no');
+                    document.getElementById('bgaudio').setAttribute('src', 'http://outsourceimagecdn.babyhouse.wang/assets/music/error.mp3');
+                    document.getElementById('bgaudio').play();
+                }
+                clickCount++;
+                onlyClickOne = false
+                $('.step_2_wrap_ul').css({
+                    transform: `translate3d(-${5*clickCount}%,0,0)`
+                });
+                document.getElementById('answersUl').addEventListener('webkitTransitionEnd', function () {
+                    onlyClickOne = true
+                })
+                document.getElementById('answersUl').addEventListener('transitionend', function () {
+                    onlyClickOne = true
+                })
+            }
+        }
+    });
+    // 提交答案
+    $('.answerSub').click(function(event) {
+        // 拿到用户答对的题数和结束时间
+        var getStartTime = sessionStorage.getItem('startTimes');
+        var endTime = new Date().getTime();
+        var spendTime = Math.floor(parseInt((endTime - getStartTime) / 1000));
+        // wrap 滑动
+        $('.mainWrap').css({
+            transform: 'translate3d(-50%,0,0)'
+        });
+        var lavel = '';
+        if (trueCount < 5 && trueCount >= 0) {
+            lavel = '初级'
+        } else if (trueCount < 20 && trueCount >= 15) {
+            lavel = '特级'
+        } else if (trueCount < 15 && trueCount >= 10) {
+            lavel = '高级'
+        } else if (trueCount < 10 && trueCount >= 5) {
+            lavel = '中级'
+        }
+        // 上报
+        $.post('http://outsource.babyhouse.wang/v1/answer.json', { score: trueCount, use_time: spendTime }, function(response) {
+            console.log(response)
+        })
+        document.getElementById('mainWraps').addEventListener('webkitTransitionEnd', function () {
+            // 设置结果页的数据
+            console.log(trueCount)
+            $('.insideRadious').text(trueCount);
+            $('.itemsCount >span').text(trueCount);
+            $('.lavel >span').text(lavel);
+        })
+        document.getElementById('mainWraps').addEventListener('transitionend', function () {
+            $('.insideRadious').text(trueCount);
+            $('.itemsCount >span').text(trueCount);
+            $('.lavel >span').text(lavel);
+        })
+    });
+    // 查看答案
+    $('.result .check').click(function(event) {
+        $('.mainWrap').css({
+            transform: 'translate3d(-75%,0,0)'
+        });
+    });
+    // 在卓一次
+    $('.result .again').click(function(event) {
+        window.location.href = '/?t='+ new Date().getTime();
+    });
+    // 分享
+    $('.result .share').click(function(event) {
+        $('.fixedShare').css({
+            display: 'block'
+        });
+    });
+    $('.fixedShare').click(function(event) {
+        $(this).css({
+            display: 'none'
+        });
+    });
+})
+</script>
+
+</html>
